@@ -1,0 +1,118 @@
+.wt, .ei, .mission, .vision, .scheds{
+	font-size: 14px;
+	font-family: cursive;
+	position: absolute;
+    top: 42%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	border: 1px solid transparent;
+	border-radius: 40px;
+	background-color: #99ff99;  /*bestage*/
+	width: 70%;
+	height: auto;
+	opacity: 0.95;
+	padding: 20px;
+	/* z-index: -1; */
+}
+.ei, .vision{
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.mission{
+	top: 41%;
+	height: auto;
+}
+.vision{
+	height: auto;
+	top: 83%;
+}
+.ei{
+	top: 82%;
+}
+.scheds{
+	top: 75%;
+	width: 90%;
+	height: auto;
+}
+.childedit, .application, .Oappform, .teacher1{
+	font-family: cursive;
+	border: 1px solid transparent;
+	border-radius: 40px;
+	background-color: #99ff99;  /*bestage*/
+	position: absolute;
+	top: 20%;
+	left: 9%;
+	width: 70%;
+	height: auto;
+	margin-right: -50%;
+	opacity: 0.95;
+	padding: 20px;
+}
+.application{
+	top: 440%;
+	height: 85%;
+}
+#atbtn, #appbtnE, #appbtnD{
+	font-family: cursive;
+	font-weight: bold;
+	background-color: #003366; /*ko7ly*/
+	color: #0099cc;  /*blue*/
+	text-align: center;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#appbtnE, #appbtnD{
+	position: absolute;
+	top: 480%;
+	left: 40%;
+}
+#appbtnD{left: 45%;}
+#boxes{
+	border: 1px solid transparent;
+  border-radius: 5px;
+	z-index:6;
+}
+#timing{text-align: center;}
+#scTable, th, td{
+	border: 2px solid #003366; /*ko7ly*/
+	border-radius: 5px;
+}
+#username{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	color: #ff0066; /*foshia*/
+}
+.Events{
+	font-family: cursive;
+	border: 1px solid transparent;
+	border-radius: 40px;
+	background-color: #99ff99;  /*bestage*/
+	position: absolute;
+	top: 40%;
+	width: 50%;
+	height: auto;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+}
+.childedit{
+	font-family: cursive;
+	border: 1px solid transparent;
+	border-radius: 40px;
+	background-color: #99ff99;  /*bestage*/
+	position: absolute;
+	top: 20%;
+	left: 9%;
+	width: 70%;
+	height: auto;
+	margin-right: -50%;
+	opacity: 0.95;
+	padding: 20px;
+}

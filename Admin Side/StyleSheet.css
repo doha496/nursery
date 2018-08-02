@@ -1,0 +1,223 @@
+body{
+	background-color: #00ccff;  /*labny*/
+}
+header{
+	background-image: url("image.png");
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 18%;
+	width: 100%;
+}
+header #logo{
+	position: absolute;
+	top: 32%;
+	left: 3.6%;
+	width: 115px;
+	height: 60px;
+	border: 1px solid transparent;
+	border-radius: 25px;
+}
+#h1W, #h1U, #h1O, #h1S, #h1A, #h1oA{
+	font-family: cursive;
+	font-weight: bold;
+	position: absolute;
+	top: 31.5%;
+	left: 35%;
+	color: #ff0066; /*foshia*/
+    font-size: 31px;
+}
+#h1O{
+    top: 17%;
+	left: 20%;
+}
+#h1A{
+	top: 19%;
+	left: 40%;
+}
+#h1S{
+	font-size: 30px;
+	top: 17%;
+	left: 34%;
+}
+#h2{
+	font-family: cursive;
+	font-weight: bold;
+}
+#h1oA{
+    top: 17%;
+    left: 33.4%;
+}
+
+#h1t{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: -2%;
+    left: 22%;
+}
+header #bkbtn{
+	position: absolute;
+	top: 38%;
+	right: 11%;
+	font-family: cursive;
+	color: #0099cc;  /*blue*/
+	background-color: #ffcc00;  /*orange*/
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	height: 35%;
+	width: 5%;
+}
+#topnav{
+	position: relative;
+	list-style-type: none;
+	top: -130px;
+	left: 500px;
+}
+.micon {
+	display: inline-block;
+	cursor: pointer;
+	position: absolute;
+	left: 95%;
+	top: 10%;
+	z-index: 6;
+}
+.b1, .b2, .b3 {
+	width: 30px;
+	height: 5px;
+	background-color: #00ccff;  /*labny*/
+	margin: 6px 0;
+	transition: 0.4s;
+	border: 1px solid transparent;
+	border-radius: 15px;
+}
+.change .b1{
+	transform: rotate(-35deg) translate(-10px, 7px);
+}
+.change .b2 {opacity: 0;}
+.change .b3 {
+	transform: rotate(35deg) translate(-8px, -8px);
+}
+#navMenu{
+	position: absolute;
+	top: 10%;
+	right: 0;
+	left: 40%;
+	z-index: 3;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #003366; /*ko7ly*/
+	border: 1px solid transparent;
+	border-radius: 15px;
+}
+.topnav a {
+	font-family: cursive;
+	float: left;
+	display: block;
+	color: #0099cc;  /*blue*/
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+	font-size: 15px;
+}
+.active {
+	background-color: #003366; /*ko7ly*/
+	color:  #0099cc;  /*blue*/
+}
+.topnav .icon {
+	display: none;
+}
+.dropdown {
+	float: left;
+	overflow: hidden;
+	font-family: cursive;
+	font-size: 15px;
+}
+.dropdown .dropbtn {
+	font-size: 17px;
+	font-family: cursive;
+	border: none;
+	outline: none;
+	color:  #0099cc;  /*blue*/
+	padding: 10px 12px;
+	background-color: inherit;
+	margin: 0;
+}
+.dropdown-content {
+	border: 1px solid transparent;
+	border-radius: 15px;
+	display: none;
+	position: absolute;
+	background-color: #003366; /*ko7ly*/
+	min-width: 160px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 5;
+}
+.dropdown-content a {
+	float: none;
+	color: #0099cc;  /*blue*/
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	z-index: 5;
+}
+.topnav a:hover, .dropdown:hover .dropbtn {
+	background-color: #99ccff;  /*blue fat7*/
+	color:  #003366; /*ko7ly*/
+	border: 1px solid transparent;
+	border-radius: 15px;
+}
+.dropdown-content a:hover {
+		background-color: #99ccff;  /*blue fat7*/
+		color: black;
+		border: 1px solid transparent;
+		border-radius: 15px;
+}
+.dropdown:hover .dropdown-content {
+		display: block;
+}
+@media screen and (max-width: 600px) {
+	.topnav a:not(:first-child), .dropdown .dropbtn {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+}
+@media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 10%;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {
+		position: relative;
+		z-index: 5;
+	}
+	.topnav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+}
+#Searchbar{
+	position: absolute;
+	right: 18%;
+}
+#searchBtn{
+	position: absolute;
+	right: 8%;
+}
